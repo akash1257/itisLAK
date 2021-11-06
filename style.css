@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(lak.jpeg);
+    padding: 0 8%;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+header .logo{
+    width: 3rem;
+    height: 3rem;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family:;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    margin: 1rem;
+}
+header .items .btn{
+    background:white;
+    color: #000;
+    padding: 0.3rem 0.8rem;
+    border-radius: 0.5rem;
+}
+.content{
+    margin-top: 9rem;
+    color: white;
+}
+.content h1{
+    font-size: 2rem;
+}
+.searchbox{
+    background: white;
+    width: fit-content;
+    display: flex;
+    align-items: center ;
+    padding: 18px 10px;
+    border-radius: 1rem;
+    margin: 2rem 0;
+}
+.searchbox input{
+    background: transparent;
+    width: 7rem;
+    border: 0;
+    outline: none;
+
+}
+.searchbox button{
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+
+}
